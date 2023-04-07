@@ -1,0 +1,19 @@
+justauth:
+  enabled: true
+  extend:
+    enum-class: code.auth.demo.extend.ExtendSource
+    config:
+      UNIAUTH:
+        request-class: code.auth.demo.extend.ExtendUniAuthRequest
+        client-id: 841713977539952640           # clientId 由统一登录平台分配
+        client-secret: mmG1MDcwNDIwMjMxMzUxNTYxNjYOp9   # 秘钥由统一登录平台分配
+        redirect-uri: http://localhost:8443/oauth/uniauth/callback    # 回调地址要配置和统一登录平台配置的回调地址一致
+
+server:
+  port: 8443
+  servlet:
+    context-path: /
+
+logging:
+  level:
+    root: debug
