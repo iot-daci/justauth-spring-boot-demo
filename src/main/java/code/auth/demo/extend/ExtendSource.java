@@ -14,7 +14,7 @@ public enum ExtendSource implements AuthSource {
     /**
      * 统一登录，域名自行修改
      */
-    UNIAUTH {
+    ONEAUTH {
         /**
          * 授权的api
          *

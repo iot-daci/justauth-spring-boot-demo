@@ -25,7 +25,7 @@ justauth:
     enum-class: code.auth.demo.extend.ExtendSource
     config:
       UNIAUTH:
-        request-class: code.auth.demo.extend.ExtendUniAuthRequest
+        request-class: code.auth.demo.extend.ExtendOneAuthRequest
         client-id: xxx           # clientId 由统一登录平台分配
         client-secret: xxx   # 秘钥由统一登录平台分配
         redirect-uri: http://localhost:8443/oauth/uniauth/callback    # 回调地址要配置和统一登录平台配置的回调地址一致

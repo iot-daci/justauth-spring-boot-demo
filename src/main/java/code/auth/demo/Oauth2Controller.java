@@ -83,7 +83,7 @@ public class Oauth2Controller {
          * "email": "shimingxy@qq.com",
          * "remark": null,
          * "gender": "UNKNOWN",
-         * "source": "UNIAUTH",
+         * "source": "ONEAUTH",
          */
 
 

@@ -20,14 +20,14 @@ import me.zhyd.oauth.request.AuthDefaultRequest;
  * @author yangkai.shen
  * @date Created in 2019/10/9 14:19
  */
-public class ExtendUniAuthRequest extends AuthDefaultRequest {
+public class ExtendOneAuthRequest extends AuthDefaultRequest {
 
-    public ExtendUniAuthRequest(AuthConfig config) {
-        super(config, ExtendSource.UNIAUTH);
+    public ExtendOneAuthRequest(AuthConfig config) {
+        super(config, ExtendSource.ONEAUTH);
     }
 
-    public ExtendUniAuthRequest(AuthConfig config, AuthStateCache authStateCache) {
-        super(config, ExtendSource.UNIAUTH, authStateCache);
+    public ExtendOneAuthRequest(AuthConfig config, AuthStateCache authStateCache) {
+        super(config, ExtendSource.ONEAUTH, authStateCache);
     }
 
     /**
