@@ -10,7 +10,7 @@
   </parent>
 
   <groupId>com.xkcoding</groupId>
-  <artifactId>justauth-spring-boot-starter-demo</artifactId>
+  <artifactId>justauth-spring-starter-demo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
   <name>justauth-spring-boot-starter-demo</name>
